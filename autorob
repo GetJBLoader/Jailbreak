@@ -1,0 +1,16 @@
+local Player = game.Players.LocalPlayer
+ 
+Player.Chatted:connect(function(cht)
+	if cht:match("rat is hot") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1", true))()
+	end
+end)
+ 
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Loaded Jailbreak autorob";
+    Text = "Say rat is hot in chat to start! ";
+    Duration = 5;
+    Button1 = "nigga";
+
+})
